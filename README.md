@@ -34,8 +34,10 @@ Primary metric: AUC-ROC.
 ---
 
 ## Key Findings
-- **Best supervised model**: Week 9 GBM — Fraud **0.9825** / Credit **0.9999** / Loan **0.7030**
+- **Best supervised model (Fraud)**: Week 9 GBM — **0.9825**
+- **Best supervised model (Credit)**: Week 5 SVM & Week 9 GBM — **0.9999** (tied)
+- **Best supervised model (Loan)**: Week 9 GBM — **0.7030**
 - **Best unsupervised signal**: Week 11 DBSCAN — Fraud noise 7.66× lift (74.1% recall, zero labels used)
-- **Credit paradox**: GBM AUC 0.9999 yet HAC Ward Silhouette 0.1711 — hyperplane boundary ≠ spherical clusters
-- **Loan Default ceiling**: AUC ~0.70 persists across all methods (feature geometry constraint, not algorithm limitation)
-- **Noise lift reversal**: Fraud noise = anomaly signal (7.66×) vs Loan noise = below baseline (0.87×) — domain-dependent interpretation
+- **Credit paradox**: AUC 0.9999 yet Ward Silhouette 0.1711 — hyperplane boundary ≠ spherical clusters
+- **Loan Default ceiling**: AUC ~0.70 persists across all methods (feature geometry constraint)
+- **Noise lift reversal**: Fraud noise 7.66× ↑ vs Loan noise 0.87× ↓ — isolation signals anomaly only when target event is rare
