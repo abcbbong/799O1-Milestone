@@ -7,6 +7,16 @@ Primary metric: AUC-ROC.
 
 ---
 
+## Datasets
+
+| Dataset | Source |
+|---------|--------|
+| Credit Card Fraud Detection | [Kaggle — tusharbhadouria](https://www.kaggle.com/datasets/tusharbhadouria/credit-card-fraud-detection) |
+| Credit Card Application Data | [Kaggle — caesarmario](https://www.kaggle.com/datasets/caesarmario/application-data) |
+| Loan Default Prediction | [Kaggle — marcbuji](https://www.kaggle.com/datasets/marcbuji/loan-default-prediction) |
+
+---
+
 ## Notebooks
 
 | File | Topic | Key Method | Best Fraud AUC |
@@ -28,8 +38,3 @@ Primary metric: AUC-ROC.
 - **Best supervised model**: Week 9 GBM — Fraud AUC **0.9825**
 - **Best unsupervised signal**: Week 11 DBSCAN noise — **74.1% fraud recall** with zero labels
 - **Loan Default ceiling**: AUC ~0.70 across all methods (feature geometry constraint)
-
----
-
-## Data
-`E:\BU\CDSDX 699 O2\data\` — not included in this repo (read-only source).
