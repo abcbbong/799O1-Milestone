@@ -30,8 +30,7 @@ Primary metric: AUC-ROC.
 | `Week8.ipynb` | KNN | Euclidean / Manhattan / Chebyshev, CV k-selection | 0.8791 | 0.9056 | 0.6254 |
 | `Week9.ipynb` | Gradient Boosting | Staged early stopping, η sensitivity | 0.9825 | 0.9999 | 0.7030 |
 | `Week10.ipynb` | K-Means | Elbow + Silhouette, K-Means++ | Sil 0.4058 (k=13) | Sil 0.2063 (k=26) | Sil 0.1449 (k=23) |
-| `Week11.ipynb` | DBSCAN + HAC | Density clustering, 4-linkage HAC | Noise 7.66× lift | 407 clusters | Noise 0.87× lift |
-
+| `Week11.ipynb` | DBSCAN + HAC | Density clustering, 4-linkage HAC | Ward Sil 0.1734 | Ward Sil 0.1711 | Ward Sil 0.2109 |
 ---
 
 ## Key Findings
